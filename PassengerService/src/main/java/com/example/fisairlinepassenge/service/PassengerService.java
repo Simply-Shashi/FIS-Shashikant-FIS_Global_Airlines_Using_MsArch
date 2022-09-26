@@ -9,7 +9,7 @@ public interface PassengerService {
 	//public List<Passengerrole> getalldata();
 	public Passengerrole addData(Passengerrole pass);
 	public Passengerrole updateData(Passengerrole pass);
-	public String deleteData(int PassengerId);
-	public String deletePassenger(int PassengerId);
+	public String deleteData(int profile_id);
+	public String deletePassenger(int profile_id);
 
 }
