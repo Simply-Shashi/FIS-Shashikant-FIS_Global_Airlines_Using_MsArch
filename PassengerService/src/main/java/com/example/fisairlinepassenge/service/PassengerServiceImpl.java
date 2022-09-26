@@ -30,16 +30,16 @@ public class PassengerServiceImpl implements PassengerService {
 	}
 
 	@Override
-	public String deleteData(int profile_id) {
+	public String deleteData(int PassengerId) {
 		// TODO Auto-generated method stub
-		repo.deleteById(profile_id);
+		repo.deleteById(PassengerId);
 		return "deleted";
 	}
 
 	@Override
-	public String deletePassenger(int profile_id) {
+	public String deletePassenger(int PassengerId) {
 		// TODO Auto-generated method stub
-	repo.deleteById(profile_id);
+	repo.deleteById(PassengerId);
 	return "Passenger deleted..";
 	}
 
